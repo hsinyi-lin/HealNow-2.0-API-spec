@@ -20,7 +20,7 @@
 ### data內容
 | 欄位         | 中文     | 資料型態 |
 | ------------ | -------- | -------- |
-| id           | 狀態     | int      |
+| post_id      | 貼文編號 | int      |
 | email        | 發文者   | str      |
 | title        | 標題     | str      |
 | content      | 內容     | str      |
@@ -39,7 +39,7 @@
             "content": "去散散步",
             "created_time": "Mon, 11 Dec 2023 21:28:30 GMT",
             "email": "11136004@ntub.edu.tw",
-            "id": 10,
+            "post_id": 10,
             "title": "今天天氣不錯",
             "updated_time": "Mon, 11 Dec 2023 21:28:30 GMT"
         },
@@ -47,7 +47,7 @@
             "content": "去散散步",
             "created_time": "Mon, 11 Dec 2023 21:28:30 GMT",
             "email": "11136004@ntub.edu.tw",
-            "id": 11,
+            "post_id": 11,
             "title": "今天天氣不錯",
             "updated_time": "Mon, 11 Dec 2023 21:28:30 GMT"
         }
