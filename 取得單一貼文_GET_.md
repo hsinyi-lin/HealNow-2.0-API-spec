@@ -21,7 +21,8 @@
 | id           | 貼文編號 | int      |
 | title        | 標題     | str      |
 | content      | 內容     | str      |
-| email        | 貼文者   | str      |
+| email        | 貼文者帳號   | str      |
+| username        | 貼文者名稱   | str      |
 | created_time | 建立時間 | datetime |
 | updated_time | 更新時間 | datetime |
 | comment      | 回覆     | object   |
@@ -49,6 +50,7 @@
                 "content": "好啊",
                 "created_time": "Mon, 11 Dec 2023 21:58:44 GMT",
                 "email": "11136001@ntub.edu.tw",
+                "username": "hsin",
                 "id": 2,
                 "updated_time": "Mon, 11 Dec 2023 21:58:44 GMT"
             },
@@ -56,6 +58,7 @@
                 "content": "我也要",
                 "created_time": "Mon, 11 Dec 2023 21:58:44 GMT",
                 "email": "11136002@ntub.edu.tw",
+                "username": "hsin",
                 "id": 3,
                 "updated_time": "Mon, 11 Dec 2023 21:58:44 GMT"
             }
@@ -63,6 +66,7 @@
         "content": "去散散步",
         "created_time": "Mon, 11 Dec 2023 21:28:30 GMT",
         "email": "11136004@ntub.edu.tw",
+        "username": "hsin",
         "id": 3,
         "title": "今天天氣不錯",
         "updated_time": "Mon, 11 Dec 2023 21:28:30 GMT"

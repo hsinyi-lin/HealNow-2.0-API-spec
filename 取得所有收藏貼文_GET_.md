@@ -22,6 +22,7 @@
 | ------------ | -------- | -------- |
 | post_id      | 貼文編號 | int      |
 | email        | 發文者   | str      |
+| username        | 發文者名稱   | str      |
 | title        | 標題     | str      |
 | content      | 內容     | str      |
 | created_time | 建立時間 | datetime |
@@ -39,6 +40,7 @@
             "content": "去散散步",
             "created_time": "Mon, 11 Dec 2023 21:28:30 GMT",
             "email": "11136004@ntub.edu.tw",
+            "username": "hsin",
             "post_id": 10,
             "title": "今天天氣不錯",
             "updated_time": "Mon, 11 Dec 2023 21:28:30 GMT"
@@ -47,6 +49,7 @@
             "content": "去散散步",
             "created_time": "Mon, 11 Dec 2023 21:28:30 GMT",
             "email": "11136004@ntub.edu.tw",
+            "username": "hsin",
             "post_id": 11,
             "title": "今天天氣不錯",
             "updated_time": "Mon, 11 Dec 2023 21:28:30 GMT"

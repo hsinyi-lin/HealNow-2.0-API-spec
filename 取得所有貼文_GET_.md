@@ -21,6 +21,7 @@
 | title        | 標題     | str      |
 | content      | 內容     | str      |
 | email        | 貼文者   | str      |
+| username        | 貼文者名稱   | str      |
 | created_time | 建立時間 | datetime |
 | updated_time | 更新時間 | datetime |
 
@@ -37,6 +38,7 @@
             "content": "去散散步",
             "created_time": "Mon, 11 Dec 2023 21:28:30 GMT",
             "email": "11136004@ntub.edu.tw",
+            "username": "hsin",
             "id": 3,
             "title": "今天天氣不錯",
             "updated_time": "Mon, 11 Dec 2023 21:28:30 GMT"
